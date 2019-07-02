@@ -9,22 +9,44 @@ body {
     font-weight: 100;
   }
   .nav-item {
-      font-size: 1.4rem;
+    font-size: 1.4rem;
   }
   .nav-link {
     border-bottom: 1px solid transparent;
-    transition: border .2s;
-    &:hover{
-        border-bottom: 1px solid white;
+    transition: border 0.2s;
+    &:hover {
+      border-bottom: 1px solid white;
     }
   }
 }
 
-@media(max-width: 768px){
-    .navbar {
-        background-color: #1f1f1f; 
-        .nav-link:hover {
-            border-bottom: 1px solid transparent;
-        }
+#showcase {
+  background: url("../images/main.jpeg") bottom center / cover no-repeat;
+  min-height: 750px;
+  h1 {
+    font-family: "Questrial" sans-serif;
+    line-height: 1;
+  }
+}
+
+//button form showcase section
+#book {
+  font-size: 1.5rem;
+  border-radius: 2rem;
+}
+
+// media for smaller screen sizes
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #1f1f1f;
+    .nav-link:hover {
+      border-bottom: 1px solid transparent;
     }
+  }
+  #showcase {
+    min-height: 500px;
+    h1 {
+      font-size: 4rem;
+    }
+  }
 }
