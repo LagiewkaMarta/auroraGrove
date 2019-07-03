@@ -19,6 +19,7 @@ body {
   .nav-link {
     border-bottom: 1px solid transparent;
     transition: border 0.2s;
+    z-index: 3;
     &:hover {
       border-bottom: 1px solid white;
     }
@@ -30,7 +31,7 @@ body {
   min-height: 750px;
   position: relative;
 
-  #header{
+  .header{
     z-index: 2;
   }
   .overlay {

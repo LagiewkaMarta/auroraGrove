@@ -15,7 +15,8 @@ body {
     font-size: 1.4rem; }
   .navbar .nav-link {
     border-bottom: 1px solid transparent;
-    transition: border 0.2s; }
+    transition: border 0.2s;
+    z-index: 3; }
     .navbar .nav-link:hover {
       border-bottom: 1px solid white; }
 
@@ -23,7 +24,7 @@ body {
   background: url("../images/main.jpeg") bottom center/cover no-repeat;
   min-height: 750px;
   position: relative; }
-  #showcase #header {
+  #showcase .header {
     z-index: 2; }
   #showcase .overlay {
     background: rgba(0, 0, 0, 0.3);
