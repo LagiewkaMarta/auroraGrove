@@ -54,6 +54,11 @@ body {
   border-radius: 2rem;
 }
 
+#quotes {
+  i {
+    opacity: .3;
+  }
+}
 // media for smaller screen sizes
 @media (max-width: 768px) {
   .navbar {
